@@ -12,3 +12,7 @@ To start this Phoenix (Dockerized, you must have installed Docker) app:
 Now you can visit [`localhost:4001`](http://localhost:4001) from your browser.
 
 Ready to run in production? Please [check our deployment guides](http://www.phoenixframework.org/docs/deployment).
+
+## Common tasks
+  * Create a Migration File `./mix ecto.gen.migration name_of_migration`
+  * Execute a Migration `./mix ecto.migrate`
