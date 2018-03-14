@@ -13,6 +13,6 @@ services:
   db:
     image: postgres:9
     volumes:
-      - /usr/local/var/data/postgres-data:/var/lib/postgresql/data
+      - ${DOCKER_POSTGRESQL_DATA}:/var/lib/postgresql/data
     ports:
       - "5432:5432"
